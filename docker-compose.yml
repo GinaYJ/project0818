@@ -1,11 +1,11 @@
 version: "3.4"
 services:
-  ass-vuetify:
+  bonus-register:
     image: node:alpine
-    container_name: ass-vuetify
+    container_name: bonus-register
     entrypoint: /bin/sh
     ports:
-      - 9053:8000
+      - 9054:8000
     working_dir: /srv/app
     volumes:
       - type: bind
