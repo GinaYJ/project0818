@@ -2,18 +2,18 @@ const routes = [
     {
         path: "/",
         name: 'Home',
-        component: () => import('../views/Register.vue'),
-        // children: [
-        //     { 
-        //         path: "/money",
-        //         component: () => import('../views/Money.vue'),
-        //         // children :[
-        //         //     { path: "/bonus", component: () => import('../views/Bonus.vue')},
-        //         // ]
-        //     },
-        //     { path: "/bonus", component: () => import('../views/Bonus.vue')},
-        //     { path: "/test", component: () => import('../views/Test.vue')},
-        // ]
+        component: () => import('../views/Home.vue'),
+        children: [
+            { 
+                path: "/money",
+                component: () => import('../views/Money.vue'),
+                // children :[
+                //     { path: "/bonus", component: () => import('../views/Bonus.vue')},
+                // ]
+            },
+            { path: "/bonus", component: () => import('../views/Bonus.vue')},
+            { path: "/test", component: () => import('../views/Test.vue')},
+        ]
     },
     // {
     //     path: "/register",
