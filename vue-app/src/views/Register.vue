@@ -9,9 +9,32 @@
                 <v-icon icon="fa:fas fa-searc"></v-icon>
                 <v-text-field
                     variant="outlined"
-                    label="Email"
+                    label="手機號碼"
                 ></v-text-field>
-                <label>Email</label>
+                <v-text-field
+                    variant="outlined"
+                    label="認證號碼"
+                ></v-text-field>
+                <v-text-field
+                    variant="outlined"
+                    label="遊戲帳戶"
+                ></v-text-field>
+                <v-text-field
+                    variant="outlined"
+                    label="遊戲密碼"
+                ></v-text-field>
+                <v-text-field
+                    variant="outlined"
+                    label="確認密碼"
+                ></v-text-field>
+                <v-text-field
+                    variant="outlined"
+                    label="出生年月日"
+                ></v-text-field>
+                <v-text-field
+                    variant="outlined"
+                    label="驗證碼"
+                ></v-text-field>
             </div>
         </form>
     </div>
