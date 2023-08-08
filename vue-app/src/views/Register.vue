@@ -9,7 +9,7 @@
                     <input><label>手機號碼</label>
                 </div>
                 <div>
-                    <input><label>認證碼</label><div>發送認證碼</div>
+                    <input><label>認證碼</label><span><div>發送認證碼</div></span>
                 </div>
                 <input><label>認證碼</label><div>發送認證碼</div>
                 <input><label>遊戲帳號</label>
