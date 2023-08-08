@@ -8,6 +8,6 @@ import 'vuetify/dist/vuetify.min.css';
 loadFonts()
 
 const app = createApp(App)
-app.use(vuetify)
+// app.use(vuetify)
 app.use(route)
 app.mount('#app')
