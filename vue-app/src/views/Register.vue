@@ -1,6 +1,6 @@
 <template>
     <!-- login box -->
-    <div class="w-screen h-screen bg-red-100">
+    <div class="w-screen h-screen bg-red-500">
         <form @submit.prevent="submit">
             <h2>Login</h2>
             <!-- input box -->
