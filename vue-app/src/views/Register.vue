@@ -7,7 +7,11 @@
             <div>
                 <!-- icon -->
                 <v-icon icon="vuetify"></v-icon>
-                <input type="text">
+                <v-text-field
+                    v-model=""
+                    variant="outlined"
+                    label="Email"
+                ></v-text-field>
                 <label>Email</label>
             </div>
         </form>
