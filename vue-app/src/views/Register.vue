@@ -6,7 +6,7 @@
             <!-- input box -->
             <div>
                 <!-- icon -->
-                <v-icon icon="$vuetify"></v-icon>
+                <v-icon icon="vuetify"></v-icon>
                 <span></span>
             </div>
         </form>
