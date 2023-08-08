@@ -5,7 +5,12 @@
             <h2>Login</h2>
             <!-- input box -->
             <div>
-                <input><label>手機號碼</label>
+                <div>
+                    <input><label>手機號碼</label>
+                </div>
+                <div>
+                    <input><label>認證碼</label><div>發送認證碼</div>
+                </div>
                 <input><label>認證碼</label><div>發送認證碼</div>
                 <input><label>遊戲帳號</label>
                 <input><label>遊戲密碼</label>
