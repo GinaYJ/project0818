@@ -5,39 +5,14 @@
             <h2>Login</h2>
             <!-- input box -->
             <div>
-                <!-- icon -->
-                <v-icon icon="fa:fas fa-searc"></v-icon>
-                <v-text-field
-                    variant="outlined"
-                    label="手機號碼"
-                ></v-text-field>
-                <div class="flex">
-                    <v-text-field
-                        variant="outlined"
-                        label="認證號碼"
-                    ></v-text-field>
-                    <v-btn>發送驗證碼</v-btn>
-                </div>
-                <v-text-field
-                    variant="outlined"
-                    label="遊戲帳戶"
-                ></v-text-field>
-                <v-text-field
-                    variant="outlined"
-                    label="遊戲密碼"
-                ></v-text-field>
-                <v-text-field
-                    variant="outlined"
-                    label="確認密碼"
-                ></v-text-field>
-                <v-text-field
-                    variant="outlined"
-                    label="出生年月日"
-                ></v-text-field>
-                <v-text-field
-                    variant="outlined"
-                    label="驗證碼"
-                ></v-text-field>
+                <input><label>手機號碼</label>
+                <input><label>認證碼</label><div>發送認證碼</div>
+                <input><label>遊戲帳號</label>
+                <input><label>遊戲密碼</label>
+                <input><label>確認密碼</label>
+                <input><label>出生年月日</label>
+                <input><label>驗證碼</label>
+                
             </div>
         </form>
     </div>
