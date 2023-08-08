@@ -8,7 +8,6 @@
                 <!-- icon -->
                 <v-icon icon="vuetify"></v-icon>
                 <v-text-field
-                    v-model=""
                     variant="outlined"
                     label="Email"
                 ></v-text-field>
