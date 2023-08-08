@@ -9,7 +9,7 @@
                     <input class="border-slate-50 border-solid"><label>手機號碼</label>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>認證碼</label><span><div>發送認證碼</div></span>
+                    <input class="border-slate-50 border-solid"><label>認證碼</label><span>發送認證碼</span>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>認證碼</label><button>發送認證碼</button>
