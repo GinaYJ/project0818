@@ -1,5 +1,6 @@
 <template>
     <!-- login box -->
+    <div class="text-red-500">123</div>
     <div class="w-screen h-screen bg-red-500">
         <form @submit.prevent="submit">
             <h2>Login</h2>
