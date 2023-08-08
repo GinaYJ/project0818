@@ -15,6 +15,9 @@
                     variant="outlined"
                     label="認證號碼"
                 ></v-text-field>
+                <span>
+                    <v-btn>發送驗證碼</v-btn>
+                </span>
                 <v-text-field
                     variant="outlined"
                     label="遊戲帳戶"
