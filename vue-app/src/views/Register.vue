@@ -7,7 +7,8 @@
             <div>
                 <!-- icon -->
                 <v-icon icon="vuetify"></v-icon>
-                <span></span>
+                <input type="text">
+                <label>Email</label>
             </div>
         </form>
     </div>
