@@ -1,18 +1,15 @@
 <template>
     <!-- login box -->
-    <div>
+    <div class="w-screen h-screen bg-red-100">
         <form @submit.prevent="submit">
             <h2>Login</h2>
             <!-- input box -->
-            <div>
+            <div class="">
                 <div>
                     <input class="border-slate-50 border-solid"><label>手機號碼</label>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>認證碼</label><span>發送認證碼</span>
-                </div>
-                <div>
-                    <input class="border-slate-50 border-solid"><label>認證碼</label><button>發送認證碼</button>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
@@ -29,7 +26,8 @@
                 <div>
                     <input class="border-slate-50 border-solid"><label>驗證碼</label>
                 </div>
-                
+                <div>提交註冊</div>
+                <div>取消註冊</div>
             </div>
         </form>
     </div>
