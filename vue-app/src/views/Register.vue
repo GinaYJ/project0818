@@ -6,7 +6,7 @@
             <!-- input box -->
             <div>
                 <!-- icon -->
-                <v-icon icon="vuetify"></v-icon>
+                <v-icon icon="fa:fas fa-searc"></v-icon>
                 <v-text-field
                     variant="outlined"
                     label="Email"
