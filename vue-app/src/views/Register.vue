@@ -11,12 +11,24 @@
                 <div>
                     <input class="border-slate-50 border-solid"><label>認證碼</label><span><div>發送認證碼</div></span>
                 </div>
-                <input class="border-slate-50 border-solid"><label>認證碼</label><div>發送認證碼</div>
-                <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
-                <input class="border-slate-50 border-solid"><label>遊戲密碼</label>
-                <input class="border-slate-50 border-solid"><label>確認密碼</label>
-                <input class="border-slate-50 border-solid"><label>出生年月日</label>
-                <input class="border-slate-50 border-solid"><label>驗證碼</label>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>認證碼</label><button>發送認證碼</button>
+                </div>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
+                </div>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>遊戲密碼</label>
+                </div>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>確認密碼</label>
+                </div>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>出生年月日</label>
+                </div>
+                <div>
+                    <input class="border-slate-50 border-solid"><label>驗證碼</label>
+                </div>
                 
             </div>
         </form>
