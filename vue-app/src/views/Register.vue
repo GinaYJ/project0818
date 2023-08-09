@@ -1,13 +1,12 @@
 <template>
     <!-- login box -->
-    <div class="text-red-500">123</div>
     <div class="w-screen h-screen bg-red-500">
         <form @submit.prevent="submit">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
                 <div>
-                    <input class="border-slate-50 border-solid"><label>手機號碼</label>
+                    <input class="border-slate-50 border-solid"><label class="text-red-500">手機號碼</label>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>認證碼</label><span>發送認證碼</span>
