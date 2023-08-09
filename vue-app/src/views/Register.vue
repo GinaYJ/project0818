@@ -87,7 +87,7 @@ body {
     background: linear-gradient(60deg, transparent, #45f3ff, #45f3ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
-    z-index: 10;
+    z-index: -1;
 }
 #login-box::after{
     content: '';
@@ -100,7 +100,7 @@ body {
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
-    z-index: 10;
+    z-index: -1;
 }
 @keyframes animate{
     0%{
