@@ -72,5 +72,6 @@ body {
 } 
 .btn{
     display: flex;
+    cursor: pointer;
 }
 </style>
