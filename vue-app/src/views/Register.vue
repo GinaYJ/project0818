@@ -1,15 +1,15 @@
 <template>
     <!-- login box -->
-    <div class="w-screen h-screen bg-red-500">
+    <div class="w-screen h-screen">
         <form @submit.prevent="submit">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
                 <div>
-                    <input class="border-slate-50 border-solid rounded-lg"><label class="text-red-500">手機號碼</label>
+                    <input class="border-slate-50 border-solid rounded-lg"><label class="">手機號碼</label>
                 </div>
-                <div>
-                    <input class="border-slate-50 border-solid"><label>認證碼</label><span>發送認證碼</span>
+                <div class="flex">
+                    <input class="border-slate-50 border-solid"><label>認證碼</label><div class="border-solid rounded-md">發送認證碼</div>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
