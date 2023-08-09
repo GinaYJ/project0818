@@ -6,7 +6,7 @@
             <!-- input box -->
             <div class="">
                 <div>
-                    <input class="border-slate-50 border-solid"><label class="text-red-500">手機號碼</label>
+                    <input class="border-slate-50 border-solid rounded-md"><label class="text-red-500">手機號碼</label>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>認證碼</label><span>發送認證碼</span>
