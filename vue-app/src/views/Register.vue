@@ -1,7 +1,7 @@
 <template>
     <!-- login box -->
-    <div class="w-screen h-screen flex justify-center">
-        <form @submit.prevent="submit" class="px-3 items-center justify-center" style="width: 300px; display: flex; flex-direction: column;">
+    <div class="w-screen h-screen justify-center items-center" style="display: flex;">
+        <form @submit.prevent="submit" class="px-3 items-center justify-center" style="width: 400px; display: flex; flex-direction: column;">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
