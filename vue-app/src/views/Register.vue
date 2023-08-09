@@ -11,7 +11,7 @@
                 <div class="flex" style="display: flex;">
                     <input class="border-slate-50 border-solid">
                     <label>認證碼</label>
-                    <div class="border-solid rounded-sm cursor-pointer px-3 py-1">發送認證碼</div>
+                    <div class="border-solid rounded-sm cursor-pointer px-2 py-1">發送認證碼</div>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
