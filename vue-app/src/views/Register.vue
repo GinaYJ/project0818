@@ -1,8 +1,8 @@
 <template>
     <!-- login box -->
     <div id='bg' class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
-        <form @submit.prevent="submit" class="px-3 items-center justify-center border-white border-solid rounded-lg" 
-            style="width: 400px; height: 400px; display: flex; flex-direction: column; align-items: center; backdrop-filter: blur(10px);">
+        <form @submit.prevent="submit" id="login-box" class="px-3 items-center justify-center border-white border-solid rounded-lg" 
+            style="width: 400px; height: 450px; display: flex; flex-direction: column; align-items: center; backdrop-filter: blur(10px);">
             <h2 class="text-white mb-5">Register</h2>
             <!-- input box -->
             <div class="">
@@ -70,6 +70,36 @@ body {
         filter: hue-rotate(360deg);
     }
 } 
+#login-box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(60deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+#login-box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(60deg, transparent, #d9138a, #d9138a);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .btn{
     display: flex;
     cursor: pointer;
