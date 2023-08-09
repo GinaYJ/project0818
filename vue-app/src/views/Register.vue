@@ -1,7 +1,7 @@
 <template>
     <!-- login box -->
     <div class="w-screen h-screen">
-        <form @submit.prevent="submit" class="px-3 flex flex-col justify-center">
+        <form @submit.prevent="submit" class="px-3 flex flex-col justify-center" style="display: flex;">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
@@ -11,7 +11,7 @@
                 <div class="items-center" style="display: flex; align-items: center;">
                     <input class="border-slate-50 border-solid">
                     <label>認證碼</label>
-                    <div class="border-solid rounded-sm cursor-pointer px-2 py-1">發送認證碼</div>
+                    <div class="border-solid rounded-sm cursor-pointer px-2 py-1" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div>
                     <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
