@@ -8,7 +8,7 @@
                 <div>
                     <input class="border-slate-50 border-solid rounded-lg"><label class="">手機號碼</label>
                 </div>
-                <div class="flex" style="display: flex;">
+                <div class="items-center" style="display: flex;">
                     <input class="border-slate-50 border-solid">
                     <label>認證碼</label>
                     <div class="border-solid rounded-sm cursor-pointer px-2 py-1">發送認證碼</div>
