@@ -74,7 +74,7 @@ body {
     overflow: hidden;
     /* position: absolute;
     inset: 2px;*/
-    z-index: 10;
+    z-index: 20;
     /* background: #28292d; */
 }
 #login-box::before{
