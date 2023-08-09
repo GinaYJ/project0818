@@ -30,7 +30,7 @@
                     <input class="border-slate-50 border-solid"><label>驗證碼</label>
                 </div>
                 <div class="bg-white rounded-md flex justify-center items-center btn mb-2">提交註冊</div>
-                <div class="bg-white rounded-md flex justify-center items-center btn mb-2">取消註冊</div>
+                <div class="bg-white rounded-md flex justify-center items-center btn">取消註冊</div>
             </div>
         </form>
     </div>
