@@ -62,6 +62,9 @@ body {
     background-position: center;
     animation: bg-rotate 5s linear infinite;
 }
+#bg label{
+    color: #fff;
+}
 @keyframes bg-rotate{
     100% {
         filter: hue-rotate(360deg);
