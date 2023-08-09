@@ -2,7 +2,7 @@
     <!-- login box -->
     <div id='bg' class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
         <form @submit.prevent="submit" class="px-3 items-center justify-center border-solid " 
-            style="width: 400px; height: 400px; display: flex; flex-direction: column; align-items: center;">
+            style="width: 400px; height: 400px; display: flex; flex-direction: column; align-items: center; backdrop-filter: blur(10px);">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
@@ -41,6 +41,7 @@ const submit = () => {
 }
 </script>
 <style>
+/* --- scroll bar hide start --- */
 html {
     overflow: -moz-hidden-unscrollable;
     height: 100%;
@@ -54,6 +55,7 @@ body {
 	width: calc(100vw + 18px);
 	overflow: auto;
 }
+/* --- scroll bar hide end --- */
 #bg{
     background: url('../assets/bg.jpg') no-repeat;
     background-size: cover;
