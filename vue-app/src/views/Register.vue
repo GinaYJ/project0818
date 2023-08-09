@@ -1,6 +1,6 @@
 <template>
     <!-- login box -->
-    <div class="w-screen h-screen justify-center items-center" style="display: flex;">
+    <div class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
         <form @submit.prevent="submit" class="px-3 items-center justify-center border-solid " 
             style="width: 400px; height: 600px; display: flex; flex-direction: column; align-items: center;">
             <h2>Login</h2>
