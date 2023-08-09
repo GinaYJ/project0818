@@ -71,10 +71,10 @@ body {
     }
 } 
 #login-box{
-    position: absolute;
-    inset: 2px;
+    /* position: absolute;
+    inset: 2px;*/
     z-index: 10;
-    background: #28292d;
+    /* background: #28292d; */
 }
 #login-box::before{
     content: '';
