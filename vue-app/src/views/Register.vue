@@ -70,6 +70,9 @@ body {
         filter: hue-rotate(360deg);
     }
 } 
+#login-box{
+    z-index: 10;
+}
 #login-box::before{
     content: '';
     position: absolute;
@@ -91,6 +94,7 @@ body {
     background: linear-gradient(60deg, transparent, #d9138a, #d9138a);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
+    animation-delay: -3s;
 }
 @keyframes animate{
     0%{
