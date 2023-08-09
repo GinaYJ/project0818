@@ -1,8 +1,8 @@
 <template>
     <!-- login box -->
-    <div class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
+    <div id='bg' class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
         <form @submit.prevent="submit" class="px-3 items-center justify-center border-solid " 
-            style="width: 400px; height: 600px; display: flex; flex-direction: column; align-items: center;">
+            style="width: 400px; height: 400px; display: flex; flex-direction: column; align-items: center;">
             <h2>Login</h2>
             <!-- input box -->
             <div class="">
@@ -40,3 +40,16 @@ const submit = () => {
 
 }
 </script>
+<style>
+#bg{
+    background: url('../assets/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: bg-rotate 5s linear infinite;
+}
+@keyframes bg-rotate{
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} 
+</style>
