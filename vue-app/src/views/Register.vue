@@ -72,8 +72,8 @@ body {
 } 
 #login-box{
     overflow: hidden;
-    /* position: absolute;
-    inset: 2px;*/
+    position: absolute; 
+    inset: 2px;
     z-index: 20;
     background: #28292d;
 }
