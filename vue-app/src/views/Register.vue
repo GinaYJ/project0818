@@ -135,7 +135,7 @@ h2, #form_area{
 
 .input_css{
     outline: none;    
-    border-bottom: solid 1px white;
+    border-bottom: solid 3px white;
 }
 
 .btn{
