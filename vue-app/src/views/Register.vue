@@ -78,7 +78,7 @@ body {
     height: 100%;
     position: absolute;
     background-color: green;
-    z-index: 10;
+    z-index: 1;
 }
 #login-box{
     width: 400px;
