@@ -81,7 +81,7 @@ body {
     align-items: center;
     backdrop-filter: blur(10px);
     overflow: hidden;
-    inset: 2px;
+    inset: 3px;
     z-index: 20;
     background: #28292d;
     
