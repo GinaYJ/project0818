@@ -84,6 +84,7 @@ body {
     inset: 3px;
     z-index: 20;
     background: #28292d;
+    border-color: #fff;
 }
 #login-box::before{
     content: '';
