@@ -80,7 +80,7 @@ body {
     top: 3px;
     left: 3px;
     border-radius: 8px;
-    background-color: #555;
+    background-color: transparent;
     z-index: 1;
     
 }
