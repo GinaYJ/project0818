@@ -6,8 +6,12 @@
             <h2 class="text-white my-5">帳號註冊</h2>
             <!-- input box -->
             <div id="form_area">
-                <div>
+                <div class="inp_group">
                     <input class="border-slate-50 border-solid rounded-lg"><label class="">手機號碼</label>
+                </div>
+                <div class="relative mt-6 w-1/3 pr-5">
+                    <input type="text" name="chinese_name" id="inp_chinese_name" placeholder="中文名稱" class="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none" autocomplete="NA" />
+                    <label for="chinese_name" class="pointer-events-none absolute top-0 left-0 origin-left -translate-y-1/2 transform text-sm text-gray-800 opacity-75 transition-all duration-100 ease-in-out peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:top-0 peer-focus:pl-0 peer-focus:text-sm peer-focus:text-gray-800">中文名稱</label>
                 </div>
                 <div class="items-center" style="display: flex; align-items: center;">
                     <input class="border-slate-50 border-solid">
