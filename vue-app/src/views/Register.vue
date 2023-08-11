@@ -74,10 +74,10 @@ body {
     }
 }  */
 #mask{
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
     background-color: #555;
     z-index: 1;
