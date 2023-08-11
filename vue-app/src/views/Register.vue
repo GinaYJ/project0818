@@ -5,7 +5,7 @@
             <div id="mask"></div>
             <h2 class="text-white mb-5">Register</h2>
             <!-- input box -->
-            <div class="">
+            <div id="form_area">
                 <div>
                     <input class="border-slate-50 border-solid rounded-lg"><label class="">手機號碼</label>
                 </div>
@@ -94,8 +94,6 @@ body {
     overflow: hidden;
     inset: 3px;
     z-index: 20;
-    /* background: #28292d; */
-    /* border: solid 2px white; */
 }
 #login-box::before{
     content: '';
@@ -129,6 +127,10 @@ body {
     100%{
         transform: rotate(360deg);
     }
+}
+
+h2, #form_area{
+    z-index: 20;
 }
 .btn{
     display: flex;
