@@ -1,8 +1,7 @@
 <template>
     <!-- login box -->
     <div id='bg' class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
-        <form @submit.prevent="submit" id="login-box" class="relative px-3 items-center justify-center border-white border-solid rounded-lg" 
-            style="width: 400px; height: 450px; display: flex; flex-direction: column; align-items: center; backdrop-filter: blur(10px);">
+        <form @submit.prevent="submit" id="login-box" class="relative px-3 border-solid rounded-lg">
             <div class="absolute w-full h-full bg-slate-800 z-10"></div>
             <h2 class="text-white mb-5">Register</h2>
             <!-- input box -->
@@ -58,6 +57,9 @@ body {
 }
 /* --- scroll bar hide end --- */
 #bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url('../assets/bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,11 +74,17 @@ body {
     }
 }  */
 #login-box{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
     overflow: hidden;
-    /* position: absolute;  */
     inset: 2px;
     z-index: 20;
     background: #28292d;
+    
 }
 #login-box::before{
     content: '';
