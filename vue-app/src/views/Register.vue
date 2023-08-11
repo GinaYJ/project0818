@@ -68,11 +68,11 @@ body {
 #bg label{
     color: #fff;
 }
-/* @keyframes bg-rotate{
+@keyframes bg-rotate{
     100% {
         filter: hue-rotate(360deg);
     }
-}  */
+} 
 #mask{
     width: calc(100% - 6px);
     height: calc(100% - 6px);
