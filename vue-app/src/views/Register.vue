@@ -74,6 +74,9 @@ body {
 #login-box{
     overflow: hidden;
     position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     inset: 2px;
     z-index: 20;
     background: #28292d;
