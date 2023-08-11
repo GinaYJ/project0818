@@ -81,6 +81,7 @@ body {
     left: 0;
     background-color: #555;
     z-index: 1;
+    padding: 2px;
 }
 #login-box{
     width: 400px;
