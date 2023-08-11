@@ -7,27 +7,27 @@
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input class="input_css"><label class="">手機號碼</label>
+                    <input class="inp_css"><label class="">手機號碼</label>
                 </div>
                 <div class="items-center" style="display: flex; align-items: center;">
-                    <input class="input_css">
+                    <input class="inp_css">
                     <label>認證碼</label>
                     <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div>
-                    <input class="input_css"><label>遊戲帳號</label>
+                    <input class="inp_css"><label>遊戲帳號</label>
                 </div>
                 <div>
-                    <input class="input_css"><label>遊戲密碼</label>
+                    <input class="inp_css"><label>遊戲密碼</label>
                 </div>
                 <div>
-                    <input class="input_css"><label>確認密碼</label>
+                    <input class="inp_css"><label>確認密碼</label>
                 </div>
                 <div>
-                    <input class="input_css"><label>出生年月日</label>
+                    <input class="inp_css"><label>出生年月日</label>
                 </div>
                 <div>
-                    <input class="input_css"><label>驗證碼</label>
+                    <input class="inp_css"><label>驗證碼</label>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1">取消註冊</div>
@@ -133,11 +133,11 @@ h2, #form_area{
     z-index: 20;
 }
 
-.input_group{
+.inp_group{
     margin-bottom: 3px;
 }
 
-.input_css{
+.inp_css{
     outline: none;    
     border-bottom: solid 3px white;
 }
