@@ -93,7 +93,7 @@ body {
     inset: 3px;
     z-index: 20;
     background: #28292d;
-    border: solid 2px white;
+    /* border: solid 2px white; */
 }
 #login-box::before{
     content: '';
