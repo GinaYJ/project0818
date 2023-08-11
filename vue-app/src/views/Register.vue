@@ -1,6 +1,6 @@
 <template>
     <!-- login box -->
-    <div id='bg' class="w-screen h-screen justify-center relative" style="display: flex; align-items: center;">
+    <div id='bg' class="w-screen h-screen justify-center" style="display: flex; align-items: center;">
         <form @submit.prevent="submit" id="login-box" class="relative px-3 items-center justify-center border-white border-solid rounded-lg" 
             style="width: 400px; height: 450px; display: flex; flex-direction: column; align-items: center; backdrop-filter: blur(10px);">
             <div class="absolute w-full h-full bg-slate-800 z-10"></div>
@@ -74,9 +74,6 @@ body {
 #login-box{
     overflow: hidden;
     position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     inset: 2px;
     z-index: 20;
     background: #28292d;
