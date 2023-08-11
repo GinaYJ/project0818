@@ -134,7 +134,7 @@ h2, #form_area{
 }
 
 .inp_group{
-    margin-bottom: 3px;
+    margin-bottom: 0.7rem;
 }
 
 .inp_css{
