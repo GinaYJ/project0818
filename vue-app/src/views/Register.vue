@@ -3,7 +3,7 @@
     <div id='bg' class="w-screen h-screen">
         <form @submit.prevent="submit" id="login-box" class="rounded-lg">
             <div id="mask"></div>
-            <h2 class="text-white mb-5">Register</h2>
+            <h2 class="text-white my-5">Register</h2>
             <!-- input box -->
             <div id="form_area">
                 <div>
