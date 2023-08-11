@@ -9,24 +9,24 @@
                 <div class="inp_group">
                     <input class="inp_css"><label class="">手機號碼</label>
                 </div>
-                <div class="items-center" style="display: flex; align-items: center;">
+                <div class="inp_group">
                     <input class="inp_css">
                     <label>認證碼</label>
                     <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div>
                 </div>
-                <div>
+                <div class="inp_group">
                     <input class="inp_css"><label>遊戲帳號</label>
                 </div>
-                <div>
+                <div class="inp_group">
                     <input class="inp_css"><label>遊戲密碼</label>
                 </div>
-                <div>
+                <div class="inp_group">
                     <input class="inp_css"><label>確認密碼</label>
                 </div>
-                <div>
+                <div class="inp_group">
                     <input class="inp_css"><label>出生年月日</label>
                 </div>
-                <div>
+                <div class="inp_group">
                     <input class="inp_css"><label>驗證碼</label>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
