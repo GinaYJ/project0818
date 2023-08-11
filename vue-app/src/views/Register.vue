@@ -79,7 +79,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: green;
+    background-color: #555;
     z-index: 1;
 }
 #login-box{
