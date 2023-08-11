@@ -2,7 +2,7 @@
     <!-- login box -->
     <div id='bg' class="w-screen h-screen">
         <form @submit.prevent="submit" id="login-box" class="px-3 py-3 rounded-lg">
-            <!-- <div class="absolute w-full h-full bg-slate-800 z-10"></div> -->
+            <div id="mask"></div>
             <h2 class="text-white mb-5">Register</h2>
             <!-- input box -->
             <div class="">
@@ -73,6 +73,13 @@ body {
         filter: hue-rotate(360deg);
     }
 }  */
+#mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: green;
+    z-index: 10;
+}
 #login-box{
     width: 400px;
     height: 450px;
