@@ -1,7 +1,7 @@
 <template>
     <!-- login box -->
     <div id='bg' class="w-screen h-screen">
-        <form @submit.prevent="submit" id="login-box" class="px-3 rounded-lg">
+        <form @submit.prevent="submit" id="login-box" class="px-3 py-3 rounded-lg">
             <!-- <div class="absolute w-full h-full bg-slate-800 z-10"></div> -->
             <h2 class="text-white mb-5">Register</h2>
             <!-- input box -->
