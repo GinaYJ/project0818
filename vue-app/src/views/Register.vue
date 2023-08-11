@@ -66,11 +66,11 @@ body {
 #bg label{
     color: #fff;
 }
-@keyframes bg-rotate{
+/* @keyframes bg-rotate{
     100% {
         filter: hue-rotate(360deg);
     }
-} 
+}  */
 #login-box{
     overflow: hidden;
     position: absolute; 
