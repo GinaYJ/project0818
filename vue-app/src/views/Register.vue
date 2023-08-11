@@ -9,29 +9,25 @@
                 <div class="inp_group">
                     <input class="input_css"><label class="">手機號碼</label>
                 </div>
-                <div class="relative mt-6 w-1/3 pr-5">
-                    <input type="text" name="chinese_name" id="inp_chinese_name" placeholder="中文名稱" class="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none" autocomplete="NA" />
-                    <label for="chinese_name" class="pointer-events-none absolute top-0 left-0 origin-left -translate-y-1/2 transform text-sm text-gray-800 opacity-75 transition-all duration-100 ease-in-out peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:top-0 peer-focus:pl-0 peer-focus:text-sm peer-focus:text-gray-800">中文名稱</label>
-                </div>
                 <div class="items-center" style="display: flex; align-items: center;">
-                    <input class="border-slate-50 border-solid">
+                    <input class="input_css">
                     <label>認證碼</label>
                     <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>遊戲帳號</label>
+                    <input class="input_css"><label>遊戲帳號</label>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>遊戲密碼</label>
+                    <input class="input_css"><label>遊戲密碼</label>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>確認密碼</label>
+                    <input class="input_css"><label>確認密碼</label>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>出生年月日</label>
+                    <input class="input_css"><label>出生年月日</label>
                 </div>
                 <div>
-                    <input class="border-slate-50 border-solid"><label>驗證碼</label>
+                    <input class="input_css"><label>驗證碼</label>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1">取消註冊</div>
