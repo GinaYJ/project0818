@@ -7,7 +7,7 @@
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input class="outline-none border-b-1 border-slate-800"><label class="">手機號碼</label>
+                    <input class="input_css"><label class="">手機號碼</label>
                 </div>
                 <div class="relative mt-6 w-1/3 pr-5">
                     <input type="text" name="chinese_name" id="inp_chinese_name" placeholder="中文名稱" class="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none" autocomplete="NA" />
@@ -136,6 +136,12 @@ body {
 h2, #form_area{
     z-index: 20;
 }
+
+.input_css{
+    outline: none;    
+    border-bottom: solid 1px white;
+}
+
 .btn{
     display: flex;
     cursor: pointer;
