@@ -133,6 +133,10 @@ h2, #form_area{
     z-index: 20;
 }
 
+.input_group{
+    margin-bottom: 3px;
+}
+
 .input_css{
     outline: none;    
     border-bottom: solid 3px white;
