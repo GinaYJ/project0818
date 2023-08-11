@@ -77,11 +77,11 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
     background-color: #555;
     z-index: 1;
-    padding: 2px;
+    
 }
 #login-box{
     width: 400px;
