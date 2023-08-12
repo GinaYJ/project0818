@@ -95,8 +95,8 @@ body {
     border-radius: 8px;
     background-color: black;
     z-index: 1;
-    
 }
+
 #login-box{
     width: 400px;
     height: 450px;
@@ -108,6 +108,7 @@ body {
     inset: 3px;
     z-index: 20;
 }
+
 #login-box::before{
     content: '';
     position: absolute;
@@ -120,6 +121,7 @@ body {
     animation: animate 6s linear infinite;
     z-index: -1;
 }
+
 #login-box::after{
     content: '';
     position: absolute;
@@ -176,8 +178,8 @@ h2, #form_area{
     transition: 0.5s;
 }
 
-.inp_group input:valid ~ label,
-.inp_group input:focus ~ label{
+.inp_group input:valid ~label,
+.inp_group input:focus ~label{
     color: #45f3ff !important; 
     font-size: 0.75em !important;
     transform: translate(-10px -34px) !important;
