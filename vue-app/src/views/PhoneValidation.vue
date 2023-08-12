@@ -15,7 +15,7 @@
                     <input required>
                     <span>認證碼</span>
                     <i></i>
-                    <!-- <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div> -->
+                    <div class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1">取消註冊</div>
