@@ -8,38 +8,38 @@
             <div id="form_area">
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label class="">手機號碼</label>
+                    <span class="">手機號碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>認證碼</label>
+                    <span>認證碼</span>
                     <i></i>
                     <!-- <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div> -->
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>遊戲帳號</label>
+                    <span>遊戲帳號</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>遊戲密碼</label>
+                    <span>遊戲密碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>確認密碼</label>
+                    <span>確認密碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>出生年月日</label>
+                    <span>出生年月日</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
-                    <label>驗證碼</label>
+                    <span>驗證碼</span>
                     <i></i>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
@@ -178,9 +178,8 @@ h2, #form_area{
     transition: 0.5s;
 }
 
-.inp_group input:valid ~ label,
-.inp_group input:focus ~ label{
-    /* color: #45f3ff !important;  */
+.inp_group input:valid ~ span,
+.inp_group input:focus ~ span{
     font-size: 0.75em !important;
     transform: translate(-10px -34px) !important;
 }
