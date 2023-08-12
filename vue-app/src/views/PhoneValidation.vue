@@ -9,7 +9,7 @@
                 <div class="inp_group mt-12">
                     <input required>
                     <span class="">手機號碼</span>
-                    <i></i>
+                    <i style="width: 50%;"></i>
                 </div>
                 <div class="inp_group mt-2">
                     <input required>
