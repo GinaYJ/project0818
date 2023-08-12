@@ -7,38 +7,38 @@
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input type="text">
+                    <input required type="text">
                     <span class="">手機號碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>認證碼</span>
                     <i></i>
                     <!-- <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div> -->
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>遊戲帳號</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>遊戲密碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>確認密碼</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>出生年月日</span>
                     <i></i>
                 </div>
                 <div class="inp_group">
-                    <input>
+                    <input required>
                     <span>驗證碼</span>
                     <i></i>
                 </div>
