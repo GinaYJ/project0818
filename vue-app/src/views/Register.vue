@@ -181,7 +181,7 @@ h2, #form_area{
 /* .inp_group input:valid ~span, */
 .inp_group input:focus ~span{
     font-size: 0.75em;
-    transform: translate(-10px, -24px);
+    transform: translate(-10px, -15px);
 }
 
 .inp_group i{
