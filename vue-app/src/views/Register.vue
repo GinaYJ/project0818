@@ -153,7 +153,7 @@ h2, #form_area{
     position: relative;
 }
 
-.inp_group inpput{
+.inp_group input{
     position: relative;
     width: 100%;
     padding: 20px 10px 10px;
