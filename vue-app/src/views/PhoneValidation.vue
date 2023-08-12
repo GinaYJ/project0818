@@ -124,7 +124,7 @@ h2, #form_area{
 }
 
 #form_area{
-    width: 90%;
+    width: 80%;
 }
 
 .inp_group{
