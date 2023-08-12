@@ -6,7 +6,7 @@
             <h2 class="text-white mt-12">帳號註冊</h2>
             <!-- input box -->
             <div id="form_area">
-                <div class="inp_group">
+                <div class="inp_group mt-12">
                     <input required>
                     <span class="">手機號碼</span>
                     <i></i>
