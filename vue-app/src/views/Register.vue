@@ -3,11 +3,11 @@
     <div id='bg' class="w-screen h-screen">
         <form @submit.prevent="submit" id="login-box" class="rounded-lg">
             <div id="mask"></div>
-            <h2 class="text-white mt-5 mb-2">帳號註冊</h2>
+            <h2 class="text-white mt-5">帳號註冊</h2>
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input required type="text">
+                    <input required>
                     <span class="">手機號碼</span>
                     <i></i>
                 </div>
@@ -78,9 +78,7 @@ body {
     background-position: center;
     animation: bg-rotate 5s linear infinite;
 }
-#bg label{
-    color: #fff;
-}
+
 @keyframes bg-rotate{
     100% {
         filter: hue-rotate(360deg);
