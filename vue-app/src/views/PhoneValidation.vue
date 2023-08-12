@@ -17,9 +17,9 @@
                     <i style="width: 48%;"></i>
                     <div id='btn_send_code' class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
-                <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-5">送出</div>
-                <hr>
-                <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">查詢帳號</div>
+                <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-8">送出</div>
+                <hr class="mt-3">
+                <div class="bg-white rounded flex justify-center items-center btn py-1 mt-5">查詢帳號</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">找回密碼</div>
             </div>
         </form>
