@@ -3,7 +3,7 @@
     <div id='bg' class="w-screen h-screen">
         <form @submit.prevent="submit" id="login-box" class="rounded-lg">
             <div id="mask"></div>
-            <h2 class="text-white my-5">帳號註冊</h2>
+            <h2 class="text-white mt-5 mb-2">帳號註冊</h2>
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
