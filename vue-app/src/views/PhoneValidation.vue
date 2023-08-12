@@ -167,9 +167,11 @@ h2, #form_area{
 }
 
 #btn_send_code{
+    padding: 2px 3px 2px 3px;
+    border-radius: 8px;
     position: absolute;
     right: -10px;
-    top: 15px;
+    top: 20px;
 }
 
 .btn{
