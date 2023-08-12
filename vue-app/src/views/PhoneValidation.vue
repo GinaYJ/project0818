@@ -11,7 +11,7 @@
                     <span class="">手機號碼</span>
                     <i></i>
                 </div>
-                <div class="inp_group">
+                <div class="inp_group mt-2">
                     <input required>
                     <span>認證碼</span>
                     <i></i>
