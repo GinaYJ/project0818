@@ -19,7 +19,8 @@
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-5">送出</div>
                 <hr>
-                <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">取消註冊</div>
+                <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">查詢帳號</div>
+                <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">找回密碼</div>
             </div>
         </form>
     </div>
