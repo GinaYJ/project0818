@@ -171,7 +171,7 @@ h2, #form_area{
     padding: 2px 10px 2px 10px;
     border-radius: 5px;
     position: absolute;
-    right: -10px;
+    right: -5px;
     top: 20px;
 }
 
