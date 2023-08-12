@@ -72,7 +72,7 @@ body {
 }
 
 #login-box{
-    width: 400px;
+    width: 350px;
     height: 450px;
     display: flex;
     flex-direction: column;
