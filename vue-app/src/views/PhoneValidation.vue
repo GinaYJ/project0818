@@ -123,6 +123,10 @@ h2, #form_area{
     z-index: 20;
 }
 
+#form_area{
+    width: 90%;
+}
+
 .inp_group{
     /* margin-top: 0.5em; */
     position: relative;
