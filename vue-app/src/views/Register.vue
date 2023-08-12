@@ -180,7 +180,7 @@ h2, #form_area{
 
 .inp_group input:valid~label,
 .inp_group input:focus~label{
-    color: #45f3ff !important; 
+    /* color: #45f3ff !important;  */
     font-size: 0.75em !important;
     transform: translate(-10px -34px) !important;
 }
