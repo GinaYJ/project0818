@@ -14,7 +14,7 @@
                 <div class="inp_group mt-2">
                     <input required>
                     <span>認證碼</span>
-                    <i style="width: 50%;"></i>
+                    <i style="width: 48%;"></i>
                     <div id='btn_send_code' class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-5">送出</div>
@@ -171,7 +171,7 @@ h2, #form_area{
     padding: 2px 10px 2px 10px;
     border-radius: 5px;
     position: absolute;
-    right: -5px;
+    right: 0px;
     top: 20px;
 }
 
