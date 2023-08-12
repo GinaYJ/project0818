@@ -178,9 +178,9 @@ h2, #form_area{
 
 .inp_group input:valid ~ label,
 .inp_group input:focus ~ label{
-    color: #45f3ff;
-    font-size: 0.75em;
-    transform: translate(-10px -34px);
+    color: #45f3ff !important; 
+    font-size: 0.75em !important;
+    transform: translate(-10px -34px) !important;
 }
 
 .inp_group i{
