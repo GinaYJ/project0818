@@ -2,7 +2,7 @@ const routes = [
     {
         path: "/",
         name: 'Home',
-        component: () => import('../views/Register.vue'),
+        component: () => import('../views/PhoneValidation.vue'),
         // children: [
         //     { 
         //         path: "/money",
