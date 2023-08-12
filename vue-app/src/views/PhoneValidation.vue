@@ -17,7 +17,8 @@
                     <i style="width: 50%;"></i>
                     <div id='btn_send_code' class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
-                <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-5">提交註冊</div>
+                <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2 mt-5">送出</div>
+                <hr>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mt-3">取消註冊</div>
             </div>
         </form>
