@@ -7,7 +7,7 @@
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input type="number">
+                    <input type="text">
                     <span class="">手機號碼</span>
                     <i></i>
                 </div>
