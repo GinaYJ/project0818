@@ -7,27 +7,40 @@
             <!-- input box -->
             <div id="form_area">
                 <div class="inp_group">
-                    <input class="inp_css"><label class="">手機號碼</label>
+                    <input class="inp_css">
+                    <label class="">手機號碼</label>
+                    <i></i>
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
                     <label>認證碼</label>
+                    <i></i>
                     <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div class="inp_group">
-                    <input class="inp_css"><label>遊戲帳號</label>
+                    <input class="inp_css">
+                    <label>遊戲帳號</label>
+                    <i></i>
                 </div>
                 <div class="inp_group">
-                    <input class="inp_css"><label>遊戲密碼</label>
+                    <input class="inp_css">
+                    <label>遊戲密碼</label>
+                    <i></i>
                 </div>
                 <div class="inp_group">
-                    <input class="inp_css"><label>確認密碼</label>
+                    <input class="inp_css">
+                    <label>確認密碼</label>
+                    <i></i>
                 </div>
                 <div class="inp_group">
-                    <input class="inp_css"><label>出生年月日</label>
+                    <input class="inp_css">
+                    <label>出生年月日</label>
+                    <i></i>
                 </div>
                 <div class="inp_group">
-                    <input class="inp_css"><label>驗證碼</label>
+                    <input class="inp_css">
+                    <label>驗證碼</label>
+                    <i></i>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1">取消註冊</div>
@@ -137,9 +150,44 @@ h2, #form_area{
     margin-bottom: 0.7rem;
 }
 
-.inp_css{
-    outline: none;    
-    border-bottom: solid 3px white;
+.inp_group inpput{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+.inp_group label{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+.inp_group input:valid ~ label,
+.inp_group input:focus ~ label{
+    font-size: 0.75em;
+    transform: translate(-10px -34px);
+}
+
+.inp_group i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
 }
 
 .btn{
