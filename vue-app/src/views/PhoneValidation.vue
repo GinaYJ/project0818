@@ -169,5 +169,6 @@ h2, #form_area{
 .btn{
     display: flex;
     cursor: pointer;
+    background-color: #fff;
 }
 </style>
