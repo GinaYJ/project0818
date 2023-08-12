@@ -15,7 +15,7 @@
                     <input required>
                     <span>認證碼</span>
                     <i></i>
-                    <div class="btn" style="cursor: pointer;">發送認證碼</div>
+                    <div id='btn_send_code' class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1">取消註冊</div>
@@ -164,6 +164,11 @@ h2, #form_area{
     background-color: #fff;
     width: 100%;
     height: 2px;
+}
+
+#btn_send_code{
+    position: absolute;
+    right: -10px;
 }
 
 .btn{
