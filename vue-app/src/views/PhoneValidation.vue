@@ -169,6 +169,7 @@ h2, #form_area{
 #btn_send_code{
     position: absolute;
     right: -10px;
+    top: -10px;
 }
 
 .btn{
