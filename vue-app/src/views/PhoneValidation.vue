@@ -9,12 +9,12 @@
                 <div class="inp_group mt-12">
                     <input required>
                     <span class="">手機號碼</span>
-                    <i style="width: 50%;"></i>
+                    <i></i>
                 </div>
                 <div class="inp_group mt-2">
                     <input required>
                     <span>認證碼</span>
-                    <i></i>
+                    <i style="width: 50%;"></i>
                     <div id='btn_send_code' class="btn" style="cursor: pointer;">發送認證碼</div>
                 </div>
                 <div class="bg-white rounded flex justify-center items-center btn py-1 mb-2">提交註冊</div>
