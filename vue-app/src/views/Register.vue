@@ -147,7 +147,7 @@ h2, #form_area{
 }
 
 .inp_group{
-    margin-bottom: 0.7rem;
+    /* margin-bottom: 0.7rem; */
     position: relative;
 }
 
