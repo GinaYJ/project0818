@@ -178,10 +178,10 @@ h2, #form_area{
     transition: 0.5s;
 }
 
-/* .inp_group input:valid ~ span, */
+.inp_group input:valid ~span,
 .inp_group input:focus ~span{
-    font-size: 0.75em !important;
-    transform: translate(-10px -64px) !important;
+    font-size: 0.75em;
+    transform: translate(-10px -64px);
 }
 
 .inp_group i{
