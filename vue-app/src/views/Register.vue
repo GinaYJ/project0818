@@ -15,7 +15,7 @@
                     <input class="inp_css">
                     <label>認證碼</label>
                     <i></i>
-                    <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div>
+                    <!-- <div class="border-solid rounded-sm cursor-pointer px-1 py-1" style="cursor: pointer;">發送認證碼</div> -->
                 </div>
                 <div class="inp_group">
                     <input class="inp_css">
