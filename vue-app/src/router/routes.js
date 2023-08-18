@@ -1,6 +1,6 @@
 const routes = [
     {
-        path: "/home",
+        path: "/",
         name: 'Home',
         component: () => import('../views/PhoneValidation.vue'),
         // children: [
