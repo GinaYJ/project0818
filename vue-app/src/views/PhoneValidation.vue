@@ -25,7 +25,7 @@
         </form>
     </div>
 </template>
-<script setup>
+<!-- <script setup> -->
 // import axios from 'axios'
 // import Swal from 'sweetalert2'
 
@@ -74,7 +74,7 @@
 //         // alert('success')
 //     }
 // }
-</script>
+<!-- </script> -->
 <style>
 /* --- scroll bar hide start --- */
 html {
