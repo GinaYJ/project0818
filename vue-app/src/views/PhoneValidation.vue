@@ -26,8 +26,8 @@
     </div>
 </template>
 <script setup>
-// import axios from 'axios'
-// import Swal from 'sweetalert2'
+import axios from 'axios'
+import Swal from 'sweetalert2'
 
 const phone = ref()
 const code = ref()
@@ -35,17 +35,17 @@ const apiUrl = ref()
 const apiParam = ref()
 const apiUrlPrefix = 'http://170.187.229.132:9090/api/bonus-register/'
 
-const sendCode = async() => {
-    if (phone.value != ''){     // 驗證手機號碼不可為空值
-        const formData = ref({
-            phone: phone.value,
-        })
-        apiParam.value = '?action=sendCode'
-        apiUrl.value = apiUrlPrefix + "phone.php" + apiParam.value
-    }else{
-        // please input phone
-    }
-}
+// const sendCode = async() => {
+//     if (phone.value != ''){     // 驗證手機號碼不可為空值
+//         const formData = ref({
+//             phone: phone.value,
+//         })
+//         apiParam.value = '?action=sendCode'
+//         apiUrl.value = apiUrlPrefix + "phone.php" + apiParam.value
+//     }else{
+//         // please input phone
+//     }
+// }
 
 // const submit = async() => {
 //     const formData = ref({
