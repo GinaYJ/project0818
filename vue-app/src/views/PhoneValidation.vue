@@ -47,33 +47,33 @@ const sendCode = async() => {
     }
 }
 
-const submit = async() => {
-    const formData = ref({
-        phone: phone.value,
-    })
+// const submit = async() => {
+//     const formData = ref({
+//         phone: phone.value,
+//     })
 
-    apiUrl.value = '/api/bonus'
-    const { data: { success, msg } } = await axios.post(
-        apiUrl.value,
-        formData.value
-    )
+//     apiUrl.value = '/api/bonus'
+//     const { data: { success, msg } } = await axios.post(
+//         apiUrl.value,
+//         formData.value
+//     )
 
-    console.log(success);
+//     console.log(success);
 
-    if (success){
-        emits('closeDialog')
-        Swal.fire({
-            title: `建立紀錄成功`,
-            icon: 'success',
-            showConfirmButton: false,
-            showCancelButton: false,
-            timer: 2000,
-        }).then(() => {
-            // emits('handleUpdateProfiles')
-        })
-        // alert('success')
-    }
-}
+//     if (success){
+//         emits('closeDialog')
+//         Swal.fire({
+//             title: `建立紀錄成功`,
+//             icon: 'success',
+//             showConfirmButton: false,
+//             showCancelButton: false,
+//             timer: 2000,
+//         }).then(() => {
+//             // emits('handleUpdateProfiles')
+//         })
+//         // alert('success')
+//     }
+// }
 </script>
 <style>
 /* --- scroll bar hide start --- */
