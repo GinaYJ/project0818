@@ -26,11 +26,11 @@
     </div>
 </template>
 <script setup>
-// import axios from 'axios'
-// import Swal from 'sweetalert2'
+import axios from 'axios'
+import Swal from 'sweetalert2'
 
-const phone = ref()
-const code = ref()
+// const phone = ref()
+// const code = ref()
 const apiUrl = ref()
 const apiParam = ref()
 const apiUrlPrefix = 'http://170.187.229.132:9090/api/bonus-register/'
