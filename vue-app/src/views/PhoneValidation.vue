@@ -27,7 +27,7 @@
 </template>
 <script setup>
 import axios from 'axios'
-import Swal from 'sweetalert2'
+// import Swal from 'sweetalert2'
 
 const phone = ref()
 const code = ref()
