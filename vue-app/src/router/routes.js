@@ -15,11 +15,11 @@ const routes = [
         //     { path: "/test", component: () => import('../views/Test.vue')},
         // ]
     },
-    // {
-    //     path: "/test",
-    //     name: 'test',
-    //     component: () => import('../views/Test.vue'),
-    // },
+    {
+        path: "/test",
+        name: 'test',
+        component: () => import('../views/Test.vue'),
+    },
     // {
     //     path: '/:catchAll(.*)',
     //     name: '404',
