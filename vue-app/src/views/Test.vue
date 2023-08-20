@@ -10,6 +10,7 @@
                     <label for="inputEmail">信箱</label>
                     <input type="email" class="from-control" id="inputEmail" aria-describedby="emailhelp" placeholder="輸入信箱">
                 </div>
+                
                 <div class="inp_group mt-12">
                     <input v-model = 'phone' required>
                     <span class="">手機號碼</span>
