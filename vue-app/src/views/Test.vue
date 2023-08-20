@@ -2,9 +2,14 @@
     <div id='bg' class="w-screen h-screen">
         <form @submit.prevent="submit" id="login-box" class="rounded-lg">
             <div id="mask'"></div>
-            <h2 class="text-white mt-12">帳號註冊08190</h2>
+            <h2 class="text-white mt-12">帳號註冊</h2>
             <!-- input box -->
+
             <div id="form_area">
+                <div class="from-group">
+                    <label for="inputEmail">信箱</label>
+                    <input type="email" class="from-control" id="inputEmail" aria-describedby="emailhelp" placeholder="輸入信箱">
+                </div>
                 <div class="inp_group mt-12">
                     <input v-model = 'phone' required>
                     <span class="">手機號碼</span>
